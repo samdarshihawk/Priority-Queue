@@ -9,8 +9,9 @@ It supports arbitrary insertions of elements.
 It allows the removal of the element that has highest priority.
 
 ## In this program :
-an element with the smallest key has the highest priority.
+An element with the smallest key has the highest priority.
 if multiple elements have the same priority, then the removal process may arbitrary remove any of those elements.
+
 ## It supports the following MyPQ<K,V> interface :
 insert(k, v): Creates an entry (element) with key k and value v in the priority queue.
 min( ): Returns (but does not remove) a priority queue entry (k,v) having minimal key; returns
