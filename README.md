@@ -1,17 +1,17 @@
 ## Getting Started
 
-Welcome to the Priority Queue repository. Here is a guideline to help you get started to understand this Data Structure. In this programming part, I implement a standard Priority Queue interface using four basic
-strategies and then evaluate and compare their operational performance.
-Storing a collection of prioritized elements, a Priority Queue is an ADT characterized as follows:
+Welcome to the Priority Queue repository. Here is a guideline to help you get started to understand this Data Structure. In this programming part, I implement a standard Priority Queue interface in JAVA 14 using Array and Doubly Linked list and then evaluate and compare their operational performance. 
+
+## Storing a collection of prioritized elements, a Priority Queue is an ADT characterized as follows:
 In general, the elements are ordered pairs1 (k,v) with key k prioritizing value v in the priority queue.
 It can store elements of any type, as long as the keys satisfy a total ordering relationship.
 It supports arbitrary insertions of elements.
 It allows the removal of the element that has highest priority.
-In this program :
+
+## In this program :
 an element with the smallest key has the highest priority.
-if multiple elements have the same priority, then the removal process may arbitrary remove
-any of those elements.
-It supports the following MyPQ<K,V> interface (Page 361):
+if multiple elements have the same priority, then the removal process may arbitrary remove any of those elements.
+## It supports the following MyPQ<K,V> interface :
 insert(k, v): Creates an entry (element) with key k and value v in the priority queue.
 min( ): Returns (but does not remove) a priority queue entry (k,v) having minimal key; returns
 null if the priority queue is empty.
